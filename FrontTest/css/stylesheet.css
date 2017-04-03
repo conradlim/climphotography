@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+body{
+  font-family:'Montserrat';
+}
+
+          /*NAV BAR - HEADER*/
+header a {
+  color:#fff;
+}
+.navbar-inverse{
+  background-color:transparent;
+  border-color: transparent;
+}
+.navbar-right{
+  letter-spacing: 3px;
+  color:#5B3910;
+}
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover{
+  background-color:transparent;
+  font-weight:bold;
+  font-size:16px;
+}
+.navbar-inverse .navbar-brand{
+  color:#5B3910 ;
+}
+
+
+          /*HERO IMAGE*/
+#showcase{
+  margin-top:-123px;
+  min-height: 625px;
+  background: url('../img/showcaseImg2.jpeg') no-repeat -51px -500px;
+  background-position:center -509px  /* keeps BK Img responsive */;
+  background-attachment:fixed;
+  text-align:center;
+  color:#EADACE;
+}
+#showcase h1{
+  margin-top: 285px;
+  font-family: 'Montserrat'
+}
+.emphasize{
+  color:#a71111;
+
+}
+
+        /*HEADING*/
+.heading{
+  text-align: center;
+  font-family:'Montserrat';
+  color:#5B3910;
+  letter-spacing: 1.5px;
+}
+
+
+      /*GRID SECTION*/
+.gridSection{
+  padding-left:150px;
+  margin-bottom: 100px;
+}
+.gridSection .grid{
+  text-align: center;
+  padding:3px;
+  float:left;
+}
+.gridSection .grid img{
+    width:250px;
+    border-radius: 5px;
+}
+
+.gridSection p{
+  margin-top:-10px;
+}
+
+.gridSection a{
+  text-decoration: none;
+  color:#2D251C;
+}
+
+      /*FOOTER*/
+  .ssMedia{
+    text-align: center;
+  }
+  .ssMedia .grid{
+    display: inline-block;
+    padding: 0px 15px;
+  }
+  .ssMedia .grid a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#575757;
+}
+    .ssMedia .grid a:hover{
+      color:#B19A9A;
+    }
+
+
+          /*MEDIA QUERIES*/
+    @media (min-width:768px) {
+      .navbar > .container .navbar-brand{
+          letter-spacing: 7px;
+      }
+    }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+body{
+  font-family:'Montserrat';
+}
+
+.container{
+
+}
+/*NAV BAR - HEADER*/
+header a {
+color:#fff;
+}
+.navbar-inverse{
+background-color:transparent;
+border-color: transparent;
+}
+.navbar-right{
+letter-spacing: 3px;
+color:#5B3910;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover{
+background-color:transparent;
+font-weight:bold;
+font-size:16px;
+}
+.navbar-inverse .navbar-brand{
+color:#5B3910 ;
+}
+.navbar-inverse .navbar-brand:hover{
+  color:#5B3910;
+}
+.navbar-brand{
+  float: right;
+  margin-right: 260px;
+  margin-top: 59px;
+}
+
+.sideMenuLinks, .sideMenuLinks a{
+    text-decoration:none;
+    list-style-type: none;
+    color:#5B3910;
+}
+.col-md-3.sideMenu{
+  margin-top:150px;
+  line-height: 30px;
+  /*margin-top:250px;*/
+  letter-spacing: 3px;
+  margin-bottom:45px;
+}
+.col-md-3.navbar-fixed-top.sideMenu{
+  width: 15%;
+  background-color: #fff;
+  height: 100%;
+}
+
+  .col-md-3.sideMenu a:hover{
+    color:#ecb020;
+  }
+  #carousel {
+      background-color: #fff;
+      overflow: visible;
+      white-space:nowrap;
+  }
+
+  #carousel .slide {
+      display: inline-block;
+  }
+  img{
+    width: 750px;
+    height:100%;
+  }
+.col-md-9.mainContent{
+  margin-top: 155px;
+  margin-left:200px;
+  float:left;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media (min-width:768px) {
+.navbar > .container .navbar-brand{
+letter-spacing: 7px;
+}
+}
